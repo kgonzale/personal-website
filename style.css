@@ -1,7 +1,23 @@
-body {
-  background: cornflowerblue;
+body,
+html {
   overflow: hidden;
   background-image: url("./730189.jpg");
+  min-height: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#container {
+  justify-content: center;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+#test {
+  color: white;
 }
 
 #picture {

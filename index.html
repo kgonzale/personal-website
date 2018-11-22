@@ -13,32 +13,32 @@
       integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
       crossorigin="anonymous"
     ></script>
-    <title>Kevin Gonzalez</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <title>asd asd</title>
   </head>
 
-  <body>
+  <body id="container">
     <header>
-      <div id="picture">
-        <img
-          style="border-radius: 50%;"
-          src="./kevin.jpg"
-          width="180"
-          height="180"
-        />
-      </div>
-      <div>
-        <a
-          href="https://www.instagram.com/acmcbu/"
-          title="Instagram"
-        >
-        <i class="fab fa-github"></i>
-      </div>
+      <div><h1 id="test">hi, I'm asd</h1></div>
+      <span id="typed test"></span>
 
+      <div>
+        <a href="#" title="Instagram"> <i class="fab fa-github"></i> </a>
+      </div>
+      <span id="particles-js"></span>
     </header>
-    <!-- particles.js container -->
-    <div id="particles-js"></div>
-    <!-- scripts -->
-    <script src="./particles.js"></script>
-    <script src="./app.js"></script>
+
+    <script src="./text.js"></script>
+
+    <script>
+      var options = {
+        strings: ["First sentence", "Second sentence"],
+        typeSpeed: 40
+      };
+      var typed = new Typed("#typed", options);
+    </script>
   </body>
+  <script src="./particles.js"></script>
+  <script src="./app.js"></script>
 </html>
