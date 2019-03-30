@@ -39,8 +39,11 @@
   </head>
 
   <body>
-    <header>
       <div id="all">
+        <div>
+            <img class="shadow" style="border-radius: 50%;"  src="./images/kitty.jpg" width="220" height="200">
+        </div>
+
         <h1>hi, I'm Kevin, a</h1>
         <div class="cur"><span class="white" id="typed"></span></div>
 
@@ -63,11 +66,10 @@
           </a>
         </div>
       </div>
-    </header>
 
     <script>
       var options = {
-        strings: ["developer", "part 107 pilot", "guitarist", "coffee addict"],
+        strings: ["developer", "photographer", "coffee lover", "drone pilot"],
         typeSpeed: 100,
         backSpeed: 100,
         loop: true,
@@ -76,7 +78,5 @@
       var typed = new Typed("#typed", options);
     </script>
   </body>
-  <div id="particles-js"></div>
-  <script src="./particles.js"></script>
   <script src="./app.js"></script>
 </html>

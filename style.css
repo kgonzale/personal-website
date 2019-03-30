@@ -1,15 +1,11 @@
 body,
 html {
   overflow: hidden;
-  background-image: url("./images/background.jpg");
   height: 100%;
   width: 100%;
   position: relative;
 }
 
-.white {
-  color: white;
-}
 
 #all {
   width: 100%;
@@ -18,12 +14,12 @@ html {
   justify-content: center;
   display: flex;
   align-items: center;
-  color: white;
+  color: black;
   flex-direction: column;
 }
 
 .white {
-  color: white;
+  color: black;
   font-size: 50px;
 }
 
@@ -39,7 +35,7 @@ h1 {
   font-size: 65px;
   font-family: "Oxygen";
   font-weight: 500;
-  color: white;
+  color: black;
   padding-bottom: 20px;
 }
 
@@ -48,6 +44,17 @@ h1 {
   opacity: 0.85;
   margin-left: 20px;
   text-align: center;
-  color: white;
+  color: black;
   text-decoration: none;
+  display: inline-block;
+  transform: 250ms;
 }
+
+.social:hover {
+  transform: translateY(-5px);
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
