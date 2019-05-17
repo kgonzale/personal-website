@@ -1,4 +1,7 @@
 import React from "react";
+// import './App.css';
+import '../App.css';
+
 
 const App: React.FC = () => {
   return (
@@ -6,7 +9,7 @@ const App: React.FC = () => {
       <h1 style={{ fontFamily: "Roboto" }} className="text-6xl text-center">
         Kevin Gonzalez
       </h1>
-      <div>
+      <div className="flex justify-center ">
         <a className="social" href="https://github.com/kgonzale" title="Github">
           <i className="fab fa-github" />
         </a>
